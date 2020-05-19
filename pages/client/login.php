@@ -6,20 +6,32 @@
     <title>Habite Corretora de imóveis</title>
 
     <link rel="stylesheet" href="../../assets/css/style.css">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- DB connection -->
+    <?php
+        include("../../db/connection.php")
+    ?>
 </head>
 <body>
     <div class="container-fluid">
         <div class="form-group">
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 offset-xl-5 offset-lg-fluid offset-md-4 offset-sm-3 offset-3 text-center">
-                <form action="">
-                    <input type="text" class="form-control mt-2" id="">
-                    <input type="password" class="form-control mt-2" id="">
+                <form action="../../security/bd_login.php" method="POST">
+                    <input type="text" class="form-control mt-2" id="" name="user" value="" required placeholder="Usuário">
+                    <input type="password" class="form-control mt-2" name="passw" id="" value="" required placeholder="Senha">
                     <input type="submit" class="btn btn-success mt-3" id="" value="Entrar">
                     <input type="reset" class="btn btn-secondary mt-3" id="" Value="Cancelar">
-                 </form>
+                </form>
+                <?php
+                    if(isset($_GET['msg'])){
+                ?>
+                    usuário ou senha incorreto.
+                <?php    
+                    }
+                ?>
               </div>
          </div>
     </div>
