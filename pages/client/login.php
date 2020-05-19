@@ -11,10 +11,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+    <div class="container-fluid">
+        <div class="form-group">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 offset-xl-5 offset-lg-fluid offset-md-4 offset-sm-3 offset-3 text-center">
+                <form action="">
+                    <input type="text" class="form-control mt-2" id="">
+                    <input type="password" class="form-control mt-2" id="">
+                    <input type="submit" class="btn btn-success mt-3" id="" value="Entrar">
+                    <input type="reset" class="btn btn-secondary mt-3" id="" Value="Cancelar">
+                 </form>
+              </div>
+         </div>
     </div>
     
      <!-- Bootstrap JS -->
