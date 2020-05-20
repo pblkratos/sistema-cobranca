@@ -132,25 +132,53 @@
     color: white;
     font-family: monospace;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 .analystics-box{
-    background-color: #56687a;
-    margin-top: 15px;
-    height: 100px;
-    padding-top: 18px;
+    background-color: #3f3f44;
     box-shadow: 0px 0px 3px #56687a;
-    border-top: 2px solid #343a40;
-    border-left: 2px solid #343a40;
-    border-right: 2px solid #343a40;
+    border: 2px solid #343a40;
 }
-.analystics-box-title{
-    background-color: #56687a;
-    height: 30px;
-    margin-top: -10px;
-    padding-top: 5px;
-    box-shadow: 0px 0px 3px #56687a;
-    border-bottom: 2px solid #343a40;
-    border-left: 2px solid #343a40;
-    border-right: 2px solid #343a40;
+
+.menu-item{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+
+.menu-item span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 5px 5px 0px 0px;
 }
+
+.menu-pay{
+    background: url("../../images/pay.png") no-repeat;
+    background-position: center;
+}
+
+.menu-ver-clients{
+    background: url("../../images/verclient.png") no-repeat;
+    background-position: center; 
+}
+
+.menu-client-register{
+    background: url("../../images/client.png") no-repeat;
+    background-position: center;
+}
+
+.menu-documents{
+    background: url("../../images/documents.png") no-repeat;
+    background-position: center;
+}
+
