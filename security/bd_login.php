@@ -20,7 +20,7 @@
             $nome   = $_SESSION['nome']   = $value['nome'];
             $senha  = $_SESSION['senha']  = $value['senha'];
             $codigo = $_SESSION['codigo'] = $value['codigo'];
-            header ("Location: ../pages/admin/admins.php?cod=".$codigo);
+            header ("Location: ../pages/admin/admins.php");
         }
     }else{
         mysqli_close($con);

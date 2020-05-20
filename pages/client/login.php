@@ -15,7 +15,7 @@
         include("../../db/connection.php")
     ?>
 </head>
-<body>
+<body class="background-gradient">
     <div class="container-fluid">
         <div class="row form-group">
             <div class="form-box col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 offset-xl-5 offset-lg-fluid offset-md-4 offset-sm-3 offset-3 text-center">

@@ -4,10 +4,14 @@
     padding: 0px;
 }
 
-body{
+.background-gradient{
     background: #c94b4b;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.background-solid{
+    background-color: grey;
 }
 
 .borda{
@@ -94,4 +98,59 @@ body{
 
 .alert-msg{
     color: white;
+}
+
+/*NAVBAR*/
+
+.navbar-color{
+    color: white !important;
+}
+
+/*ESTATÍSTICAS*/
+
+.analystics{
+    font-family: monospace; 
+    font-size: 52px;
+}
+
+.analystics-loteamentos{
+    color: #ff9d8c;
+    text-shadow: 0px 0px 3px #ff9d8c;
+}
+
+.analystics-clientes{
+    color: #ffff8c;
+    text-shadow: 0px 0px 3px #ffff8c;
+}
+
+.analystics-cobrancas{
+    color: #a3ff8c;
+    text-shadow: 0px 0px 3px #a3ff8c;
+}
+
+.analystics-title{
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.analystics-box{
+    background-color: #56687a;
+    margin-top: 15px;
+    height: 100px;
+    padding-top: 18px;
+    box-shadow: 0px 0px 3px #56687a;
+    border-top: 2px solid #343a40;
+    border-left: 2px solid #343a40;
+    border-right: 2px solid #343a40;
+}
+.analystics-box-title{
+    background-color: #56687a;
+    height: 30px;
+    margin-top: -10px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 3px #56687a;
+    border-bottom: 2px solid #343a40;
+    border-left: 2px solid #343a40;
+    border-right: 2px solid #343a40;
 }
