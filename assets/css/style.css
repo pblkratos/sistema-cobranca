@@ -16,7 +16,6 @@
 
 .borda{
     border: 1px solid black;
-    display: inline;
 }
 
 /*INPUTS*/
@@ -181,4 +180,80 @@
     background: url("../../images/documents.png") no-repeat;
     background-position: center;
 }
+
+/*CLIENT REGISTER*/
+.input-client-register{
+    background-color: transparent;
+    color: gold;
+    font-family: monospace;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-bottom: 2px solid gold;
+    width: 90%;
+    height: 45px;
+    outline: none;
+    opacity: 0.6;
+    transition: width 1s, opacity 1s;
+}
+
+.input-client-register:focus{
+    width: 100%;
+    opacity: 1;
+}
+
+.box-client-register{
+    margin-top: 30px;
+    background-color: #212529;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.box-client-register h1{
+    color: white;
+}
+
+.button-client-register{
+    margin-top: 30px;
+    background-color: transparent;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-submit{
+    border: 1px solid #5fed5f;
+    color: #5fed5f;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-submit:hover{
+    background-color: #52c452;
+    color: white;
+}
+
+.button-reset{
+    border: 1px solid #bfbfbf;
+    color: #bfbfbf;
+    transition: color 0.3s, border 0.3s;
+}
+
+.button-reset:hover{
+    border: 1px solid #f06846;
+    color: #f06846;
+}
+
+.alert-msg{
+    background-color: yellow;
+    color: black;
+}
+
+.success-msg{
+    background-color: green;
+    color: black;
+}
+
 
